@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:orientation="vertical"
+    android:padding="20dp"
+    android:background="@color/home_background"
+    tools:context=".ScheduleActivity">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginLeft="30dp"
+        android:text="Scheduling Form"
+        android:textColor="@color/black"
+        android:textSize="35dp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/et_fname"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:hint="FirstName"
+        android:inputType="text"
+        android:textSize="20dp"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:layout_marginTop="100dp"
+        />
+
+    <EditText
+        android:id="@+id/et_lname"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:hint="LastName"
+        android:inputType="text"
+        android:textSize="20dp"
+
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:layout_marginTop="160dp"
+        />
+    <EditText
+        android:id="@+id/et_femail"
+        android:layout_width="320dp"
+        android:layout_height="wrap_content"
+        android:hint="Email"
+        android:inputType="textEmailAddress"
+        android:textSize="20dp"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:layout_marginTop="220dp"
+        />
+
+    <Spinner
+        android:id="@+id/spinner1"
+        android:layout_width="150dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="160dp"
+        android:layout_marginLeft="190dp"
+        />
+
+    <EditText
+        android:id="@+id/et_date"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:hint="Select Date"
+        android:textSize="20dp"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:layout_marginTop="280dp"
+        />
+
+    <EditText
+        android:id="@+id/et_fphone"
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:hint="Phone Number"
+        android:inputType="phone"
+        android:textSize="20dp"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:layout_marginLeft="180dp"
+        android:layout_marginTop="280dp"
+        />
+    <TextView
+        android:id="@+id/tv_timer2"
+        android:layout_width="150dp"
+        android:layout_height="40dp"
+        android:inputType="text"
+        android:textSize="20dp"
+        android:textColor="@color/black"
+        android:hint="Select Time"
+        android:textStyle="bold"
+        android:layout_marginLeft="1dp"
+        android:layout_marginTop="340dp"
+        />
+
+    <Button
+        android:id="@+id/btnSchedDone"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="490dp"
+        android:text="Done"
+        android:layout_marginLeft="100dp"
+
+
+        />
+
+
+
+
+
+
+
+</RelativeLayout>

@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">P2 Application</string>
+    <string name="invalid_name">Please Enter Valid FullName</string>
+    <string name="invalid_phone">Please Enter Valid Number!</string>
+    <string name="invalid_email">Please Enter Valid Email</string>
+    <string name="invalid_fname">Please enter valid firstname!</string>
+    <string name="invalid_lname">Please enter valid lastname!</string>
+    <string name="invalid_femail">Please enter valid email!</string>
+    <string name="invalid_fphone">Please enter valid number!</string>
+
+    <string-array name="Genders">
+        <item>Gender</item>
+        <item>Male </item>
+        <item>Female </item>
+
+
+    </string-array>
+
+</resources>
